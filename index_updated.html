@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kaiserstor</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+    }
+    h1 {
+      padding: 20px;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #ff000050;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      padding: 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Kaiserstor</h1>
+  <div class="gallery">
+    <img src="https://upload.wikimedia.org/wikipedia/en/6/65/Luffy_Anime.png" alt="One Piece" />
+    <img src="https://upload.wikimedia.org/wikipedia/en/9/98/Ichigo_Kurosaki.png" alt="Bleach" />
+    <img src="https://upload.wikimedia.org/wikipedia/en/9/94/Naruto_Uzumaki.png" alt="Naruto" />
+    <img src="https://upload.wikimedia.org/wikipedia/en/7/79/Eren_Jaeger.png" alt="Attack on Titan" />
+  </div>
+  <footer>
+    © 2025 Kaiserstor. All anime belong to their creators.
+  </footer>
+</body>
+</html>
